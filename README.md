@@ -1,6 +1,6 @@
 # grunt-elm-make
 
-> The best Grunt plugin ever.
+> A plugin for compiling Elm files.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
