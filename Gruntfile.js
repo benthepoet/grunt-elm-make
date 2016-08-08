@@ -32,7 +32,8 @@ module.exports = function(grunt) {
     elm_make: {
       default: {
         files: {
-          'dist/Main.js': ['src/Main.elm']
+          'dist/Main.js': ['src/Main.elm'],
+          'dist/Test.js': ['src/Test.elm']
         }
       }
     },
