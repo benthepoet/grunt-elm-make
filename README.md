@@ -37,8 +37,10 @@ grunt.initConfig({
 ```js
 grunt.initConfig({
   elm_make: {
-    files: {
-      'dest/Main.js': ['src/Main.elm'],
+    default: {
+      files: {
+        'dest/Main.js': ['src/Main.elm'],
+      },
     },
   },
 });
